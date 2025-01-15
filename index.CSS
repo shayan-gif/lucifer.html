@@ -1,0 +1,89 @@
+@media only screen and (min-width: 455px) {
+  body {
+    background-color: rgb(20, 117, 161);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #7e22ce;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+  flex-grow: 1;
+  border: 2px solid rgb(52, 12, 163);
+  /* display: inline-block; */
+  border-radius: 34px;
+  padding: 45px;
+  margin: 34px;
+  width: 344px;
+  /* box-shadow: 5px 15px 5px  #cf0505; */
+  background-color: #382688;
+/* text-shadow: 2px 2px 4px 2px white; */
+}
+div h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+  color: #9f00f9;
+  text-decoration: underline;
+  text-decoration-color: #1744c0;
+}
+div p {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: #ffffff;
+}
+/* .text-element{
+    text-shadow: 2px 2px 4px #2d188d;
+}   */
+header {
+  position: sticky;
+  display: inline;
+}
+nav {
+  padding: 25px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  outline: 2px solid white;
+  position: sticky;
+}
+a {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: #000000;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+}
+.Icon {
+  font-size: 30px;
+  color: #04ebeb;
+  margin: 10px 450px 220px 20px;
+}
+
+
+.cards {
+  background-color: rgb(73, 73, 73);
+  padding: 34px;
+}
+footer {
+  text-align: center;
+}
